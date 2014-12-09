@@ -33,4 +33,4 @@ PRODUCT_BRAND := Google
 PRODUCT_MODEL := Nexus 4
 PRODUCT_MANUFACTURER := LGE
 
-$(call inherit-product-if-exists, vendor/lge/mako/device-vendor.mk)
+$(call inherit-product-if-exists, vendor/lge/mako/mako-vendor.mk)
