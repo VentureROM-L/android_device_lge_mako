@@ -1,14 +1,12 @@
 [
     {
-        "remote": "venture",
-        "repository": "android_kernel_lge_mako",
+        "repository": "VentureROM-L/android_kernel_lge_mako",
         "target_path": "kernel/lge/mako",
-        "revision": "lollipop"
+        "branch": "lollipop"
     },
     {
-        "remote": "venture",
-        "repository": "android_vendor_lge",
+        "repository": "VentureROM-L/android_vendor_lge",
         "target_path": "vendor/lge",
-        "revision": "lollipop"
+        "branch": "lollipop"
     }
 ]
