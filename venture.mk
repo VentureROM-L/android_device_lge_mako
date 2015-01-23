@@ -22,7 +22,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base_telephony.mk)
 
 # Inherit from our custom product configuration
 $(call inherit-product, vendor/venture/config/common_full_phone.mk)
-$(call inherit-product, vendor/venture/config/nfc_enhanced.mk)
+$(call inherit-product, vendor/venture/config/gsm.mk)
 
 # Inherit from hardware-specific part of the product configuration
 $(call inherit-product, device/lge/mako/device.mk)
