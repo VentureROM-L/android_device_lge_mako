@@ -42,6 +42,8 @@ BOARD_MKBOOTIMG_ARGS := --ramdisk_offset 0x01600000
 TARGET_KERNEL_SOURCE := kernel/lge/mako		
 TARGET_KERNEL_CONFIG := venture_mako_defconfig
 
+TOUCH_BOOST_DEBUG := false
+
 BOARD_USES_ALSA_AUDIO:= true
 BOARD_USES_LEGACY_ALSA_AUDIO:= false
 BOARD_USES_FLUENCE_INCALL := true
